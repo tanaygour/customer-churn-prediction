@@ -1,18 +1,58 @@
-# Customer Churn Prediction
+Customer Churn Prediction
+📌 Project Overview
 
-## Problem Statement
-Predict customer churn using historical customer data to identify customers likely to discontinue a service.
+Customer churn is a critical business problem where organizations aim to identify customers who are likely to discontinue a service. This project focuses on performing end-to-end exploratory data analysis (EDA) and data cleaning on a real-world telecom dataset to uncover churn-driving patterns and prepare the data for predictive modeling.
 
+🎯 Objectives
 
-## Approach
-- Data collection and preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature engineering
-- Logistic Regression model
-- Model evaluation using accuracy and F1-score
+Analyze customer behavior using historical data
 
-## Tech Stack
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+Identify key factors associated with customer churn
 
-## Project Status
-In progress
+Clean and preprocess data for machine learning readiness
+
+Extract actionable business insights through visualization
+
+🧠 Approach
+
+Data Loading & Inspection
+
+Loaded structured telecom customer data
+
+Reviewed dataset dimensions, schema, and data types
+
+Data Cleaning & Preprocessing
+
+Identified data type inconsistencies in numeric fields
+
+Detected hidden missing values caused by string-based numeric columns
+
+Applied domain-driven imputation logic to resolve missing values
+
+Exploratory Data Analysis (EDA)
+
+Analyzed churn distribution
+
+Studied relationships between churn and key features such as tenure and monthly charges
+
+Visualized insights using boxplots and count plots
+
+🔍 Key Insights
+
+Churn is imbalanced, with a majority of customers not churning
+
+Low-tenure customers are significantly more likely to churn
+
+Customers with higher monthly charges show higher churn probability
+
+New customers (tenure = 0) logically have zero total charges, which required special handling
+
+🛠️ Tech Stack
+
+Programming: Python
+
+Data Analysis: Pandas, NumPy
+
+Visualization: Matplotlib, Seaborn
+
+Environment: Jupyter Notebook (Anaconda)
