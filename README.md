@@ -29,4 +29,27 @@ Logistic Regression
 3. Exploratory Data Analysis
 4. Feature Encoding
 5. Model Training
+
 6. Model Evaluation
+
+## Exploratory Data Analysis
+
+### Customer Churn Distribution
+![Churn Distribution](images/churn_distribution.png)
+
+### Churn by Gender
+![Gender vs Churn](images/gender_vs_churn.png)
+
+### Churn by Contract Type
+![Contract vs Churn](images/contract_vs_churn.png)
+
+### Monthly Charges vs Churn
+![Monthly Charges vs Churn](images/monthly_charges_vs_churn.png)
+
+### Tenure vs Churn
+![Tenure vs Churn](images/tenure_vs_churn.png)
+
+## Model Evaluation
+
+### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
